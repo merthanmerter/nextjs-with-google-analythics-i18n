@@ -12,7 +12,7 @@ const GA_TRACKING_ID = (locale) => {
 			break
 	}
 }
-
+ 
 function GoogleAnalytics() {
 	const router = useRouter()
 	const { locale } = router
